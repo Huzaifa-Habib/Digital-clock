@@ -1,0 +1,142 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:#060a1f;
+}
+
+.time div{
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+}
+
+.clock h2{
+    font-size: 18px;
+    color: white;
+    font-family: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: cursive;
+    margin-top: 20%;
+    letter-spacing: 0.2em;
+
+
+}
+
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.hours{
+    background-color: dodgerblue;
+    text-align: center;
+    width: 8%;
+    height: 100px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    font-family: cursive;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.2);
+
+}
+
+.hours span{
+    font-size: 45px;
+
+}
+
+.sub1{
+    margin-top: 6px;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    background-color: #127fd6;
+    font-size: 14px;
+    padding: 4px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.2);
+
+
+}
+
+.min{
+    background-color:#ff006a;
+    text-align: center;
+    width: 8%;
+    height: 100px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    font-family: cursive;
+    margin-left: 10px;
+
+
+}
+
+.min span{
+    font-size: 45px;
+}
+
+.sub2{
+    margin-top: 6px;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    background-color: #ff006a;
+    font-size: 14px;
+    padding: 4px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.2);
+
+
+}
+
+.sec{
+    background-color:#db5200;
+    text-align: center;
+    width: 8%;
+    height: 100px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    font-family: cursive;
+    margin-left: 10px;
+
+
+}
+
+.sec span{
+    font-size: 45px;
+}
+
+.sub3{
+    margin-top: 6px;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    background-color: #db5200;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.2);
+    font-size: 14px;
+    padding: 4px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.2); 
+
+}
+
+#a{
+    color: white;
+}
+
+#p{
+    width: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: bolder;
+    font-family: cursive;
+    border-bottom: 5px solid #ff006a;
+    margin-left: calc(45vw);
+
+
+}
